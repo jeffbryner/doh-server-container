@@ -32,3 +32,17 @@ curl -s -H 'accept: application/dns-message' 'http://localhost:3000/dns-query?dn
 00000040  00 0c 00 00                                       |....|
 00000044
 ```
+
+
+## References
+
+RFC
+https://datatracker.ietf.org/doc/html/rfc8484
+
+Query examples
+https://support.opendns.com/hc/en-us/articles/360038463251-Querying-OpenDNS-using-DoH-for-developers-
+
+Firefox
+https://wiki.mozilla.org/Trusted_Recursive_Resolver
+https://support.mozilla.org/en-US/kb/firefox-dns-over-https
+
